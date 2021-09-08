@@ -10,7 +10,7 @@ var birdFlying;
 function preload(){
 
   bee_img = loadImage("bee.png");
-  bidrFlying = loadAnimation("bird1.png", "bird2.png", "bird3.png","bird4.png")
+  birdFlying = loadAnimation("bird1.png", "bird2.png", "bird3.png","bird4.png")
 }
 
 
@@ -67,6 +67,7 @@ if(object1.x-object2.x<object1.width/2+object2.width/2
     return true
   }
 else{return false}
+
+
  
 }
-
